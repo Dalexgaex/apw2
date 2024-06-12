@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-background {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-color {
+    background-color: #5bc0de; /* Color de Bootstrap */
+  }
+  
+  /* Estilos de la lista de tareas */
+  .list-group-item {
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .list-group-item .task-info {
+    flex-grow: 1;
+  }
+  
+  .list-group-item .task-actions {
+    flex-shrink: 0;
+  }
+  
+  .list-group-item .task-actions button {
+    margin-left: 5px;
+  }
+  
+  /* Estilos de las tareas según su estado */
+  .pending {
+    background-color: #fff;
+  }
+  
+  .completed {
+    background-color: #5cb85c; /* Bootstrap Success */
+    color: white;
+  }
+  
+  .expired {
+    background-color: #d9534f; /* Bootstrap Danger */
+    color: white;
+  }
+  
