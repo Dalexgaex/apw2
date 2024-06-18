@@ -1,0 +1,78 @@
+
+body {
+    background-color: #f7f7f7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; 
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff; 
+    border: none;
+}
+
+.card-header {
+    background-color: #333; 
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+button#generar {
+    font-size: 18px;
+    padding: 10px 20px ;
+    background-color: #333; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border-color: #111;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button#generar:hover {
+    background-color: #555; 
+    transform: scale(1.05);
+}
+
+button#generar:active {
+    background-color: #111; 
+    transform: scale(1);
+}
+
+p#nombre {
+    font-size: 24px;
+    color: #333; 
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card-footer {
+    background-color: #f0f0f0; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #777; 
+}
