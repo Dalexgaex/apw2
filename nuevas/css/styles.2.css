@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #c0392b; /* Rojo más oscuro */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b; /* Rojo oscuro al pasar el mouse */
+}
+
+pre {
+    background: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-size: 1.5em; /* Aumentar el tamaño de la fuente para los números */
+    text-align: center; /* Centrar el texto dentro del pre */
+}
+
+.matrix-cell {
+    display: inline-block; /* Para que ocupe solo el espacio necesario */
+    width: 40px; /* Ancho fijo para las celdas */
+    height: 40px; /* Alto fijo para las celdas */
+    line-height: 40px; /* Centrar verticalmente el texto */
+    font-size: 1.2em; /* Tamaño de fuente para números */
+    border: 1px solid #e74c3c; /* Borde rojo para cada celda */
+    margin: 2px; /* Espaciado entre celdas */
+}

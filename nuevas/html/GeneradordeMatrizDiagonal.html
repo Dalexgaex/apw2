@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="../css/styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Matrices 2x2</h1>
+        <form id="matrixForm">
+            <h3>Matriz 1</h3>
+            <div class="matrix">
+                <input type="number" id="m1-0-0" required>
+                <input type="number" id="m1-0-1" required>
+                <input type="number" id="m1-1-0" required>
+                <input type="number" id="m1-1-1" required>
+            </div>
+            <h3>Matriz 2</h3>
+            <div class="matrix">
+                <input type="number" id="m2-0-0" required>
+                <input type="number" id="m2-0-1" required>
+                <input type="number" id="m2-1-0" required>
+                <input type="number" id="m2-1-1" required>
+            </div>
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="results">
+            <h3>Resultados</h3>
+            <p>Suma: <span id="sumResult"></span></p>
+            <p>Resta: <span id="subtractionResult"></span></p>
+            <p>Producto: <span id="productResult"></span></p>
+            <p>División: <span id="divisionResult"></span></p>
+        </div>
+    </div>
+    <script src="../js/script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrado Mágico y Conteo de Ceros</title>
+    <link rel="stylesheet" href="../css/styles1y2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cuadrado Mágico y Conteo de Ceros</h1>
+
+        <h2>Ingresar matriz para contar ceros</h2>
+        <form id="formCeros">
+            <label for="matrizCeros">Ingrese la matriz (valores separados por comas y líneas por saltos de línea):</label><br>
+            <textarea id="matrizCeros" rows="5" cols="30" placeholder="Ejemplo: 0,2,5,7,6&#10;0,0,0,3,8"></textarea><br>
+            <button type="button" id="contarCerosBtn">Contar Ceros</button>
+        </form>
+
+        <h2>Ingresar matriz para verificar cuadrado mágico</h2>
+        <form id="formMagico">
+            <label for="matrizMagico">Ingrese la matriz mágica (valores separados por comas y líneas por saltos de línea):</label><br>
+            <textarea id="matrizMagico" rows="5" cols="30" placeholder="Ejemplo: 4,9,2&#10;3,5,7&#10;8,1,6"></textarea><br>
+            <button type="button" id="verificarMagicoBtn">Verificar Cuadrado Mágico</button>
+        </form>
+
+        <div id="resultados"></div>
+    </div>
+
+    <script src="../js/script1y2.js"></script>
+</body>
+</html>

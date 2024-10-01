@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px; /* Menos padding */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px; /* Menos padding */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #c0392b; /* Rojo más oscuro */
+    font-size: 1.3em; /* Tamaño de fuente más pequeño */
+}
+
+button {
+    width: 100%;
+    padding: 6px; /* Tamaño de padding más pequeño */
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Margen más pequeño */
+}
+
+button:hover {
+    background-color: #c0392b; /* Rojo oscuro al pasar el mouse */
+}
+
+.output-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Margen superior más pequeño */
+}
+
+.matrix-container {
+    flex: 1;
+    margin-right: 10px; /* Margen más pequeño */
+}
+
+.results-container {
+    flex: 0 0 150px; /* Ancho fijo más pequeño para la columna de resultados */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 5px; /* Tamaño de padding más pequeño */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Margen superior más pequeño */
+}
+
+.column-results {
+    margin-top: 10px; /* Margen superior más pequeño */
+}
+
+pre {
+    background: #f8f8f8;
+    padding: 5px; /* Tamaño de padding más pequeño */
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    text-align: left; /* Alinear texto a la izquierda */
+}
